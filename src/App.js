@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import Test1 from "./components/Test1";
+// import OldYoutubeForm from "./components/OldYoutubeForm";
+//import YoutubeForm from "./components/YoutubeForm";
+//import FormikContainer from "./components/FormikContainer/FormikContainer";
+import RegisterForm from "./components/RegisterForm";
+import LoginForm from "./components/LoginForm";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Test1 /> */}
+      {/* <OldYoutubeForm /> */}
+      {/* <YoutubeForm /> */}
+      {/* <FormikContainer /> */}
+      {/* <LoginForm /> */}
+      <RegisterForm />
     </div>
   );
 }
